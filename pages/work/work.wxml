@@ -1,0 +1,39 @@
+
+<view class="banner">
+
+  <swiper
+    indicator-dots
+    indicator-color="rgba(255,255,255,0.5)"
+    indicator-active-color="#fff"
+    circular
+    autoplay
+  >
+    <swiper-item>
+      <image src="https://tse1-mm.cn.bing.net/th/id/R-C.d9137c3b2c270cb4fe15ec9811f8781e?rik=CRRYNlWG9HWe6g&riu=http%3a%2f%2fpic.5tu.cn%2fuploads%2fallimg%2f2104%2fpic_5tu_big_6142732_065cf8d1e327b1b7f84e3e8b7ab51c20.jpg&ehk=awNck5HLcEiByjHJnQeqsKL55GsDXR5SWaTHgHcRtHA%3d&risl=&pid=ImgRaw&r=0" />
+
+    </swiper-item>
+    <swiper-item>
+      <image src="https://img-qn-2.51miz.com/preview/muban/00/00/52/25/M-522513-92EE1832.jpg" />
+
+    </swiper-item>
+    <swiper-item>
+      <image src="https://img-u-2.51miz.com/preview/muban/00/00/52/29/M-522956-ED311A51.jpg" />
+
+    </swiper-item>
+
+  </swiper>
+
+</view>
+
+<navigator  url="/pages/map/map">导航</navigator>
+
+<navigator  url="/pages/hospital/hospital">导航最近医院</navigator>
+
+<button type="primary"
+bindtap="calling">一键呼救</button>
+
+<view class="container">
+<input class="inp" bindinput="bindKeyInput"/>
+<button bindtap="sendSmscode">已发生危险，向周围车主发送短信</button>
+</view>
+
